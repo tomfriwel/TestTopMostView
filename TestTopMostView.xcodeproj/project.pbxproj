@@ -15,6 +15,7 @@
 		CF912B681EB627FE007697BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF912B661EB627FE007697BA /* LaunchScreen.storyboard */; };
 		CF912B731EB627FE007697BA /* TestTopMostViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF912B721EB627FE007697BA /* TestTopMostViewTests.m */; };
 		CF912B7E1EB627FF007697BA /* TestTopMostViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF912B7D1EB627FF007697BA /* TestTopMostViewUITests.m */; };
+		CF912B8D1EB62D85007697BA /* MyAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF912B8C1EB62D85007697BA /* MyAlertViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		CF912B791EB627FF007697BA /* TestTopMostViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTopMostViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF912B7D1EB627FF007697BA /* TestTopMostViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTopMostViewUITests.m; sourceTree = "<group>"; };
 		CF912B7F1EB627FF007697BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF912B8B1EB62D85007697BA /* MyAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyAlertViewController.h; sourceTree = "<group>"; };
+		CF912B8C1EB62D85007697BA /* MyAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyAlertViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				CF912B5C1EB627FE007697BA /* AppDelegate.m */,
 				CF912B5E1EB627FE007697BA /* ViewController.h */,
 				CF912B5F1EB627FE007697BA /* ViewController.m */,
+				CF912B8B1EB62D85007697BA /* MyAlertViewController.h */,
+				CF912B8C1EB62D85007697BA /* MyAlertViewController.m */,
 				CF912B611EB627FE007697BA /* Main.storyboard */,
 				CF912B641EB627FE007697BA /* Assets.xcassets */,
 				CF912B661EB627FE007697BA /* LaunchScreen.storyboard */,
@@ -279,6 +284,7 @@
 				CF912B601EB627FE007697BA /* ViewController.m in Sources */,
 				CF912B5D1EB627FE007697BA /* AppDelegate.m in Sources */,
 				CF912B5A1EB627FE007697BA /* main.m in Sources */,
+				CF912B8D1EB62D85007697BA /* MyAlertViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

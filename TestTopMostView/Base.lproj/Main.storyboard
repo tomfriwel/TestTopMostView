@@ -28,10 +28,22 @@
                                     <action selector="showAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="o3X-ut-C2P"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ndK-E2-GGO">
+                                <rect key="frame" x="116.5" y="368.5" width="142" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="emG-6R-3v7"/>
+                                </constraints>
+                                <state key="normal" title="remove alert window"/>
+                                <connections>
+                                    <action selector="removeAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="opY-5W-MNb"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="ndK-E2-GGO" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="B0P-y4-TCv"/>
                             <constraint firstItem="8EZ-CR-UzE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SL3-a8-8I4"/>
+                            <constraint firstItem="ndK-E2-GGO" firstAttribute="top" secondItem="8EZ-CR-UzE" secondAttribute="bottom" constant="20" id="UEh-zE-XUR"/>
                             <constraint firstItem="8EZ-CR-UzE" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="W6H-tu-Avm"/>
                         </constraints>
                     </view>
@@ -39,10 +51,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--My Alert View Controller-->
         <scene sceneID="uWh-hA-ST3">
             <objects>
-                <viewController storyboardIdentifier="MyAlertViewController" id="Y6q-dh-w7m" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyAlertViewController" id="Y6q-dh-w7m" customClass="MyAlertViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZX7-AZ-bUe"/>
                         <viewControllerLayoutGuide type="bottom" id="OOu-Pp-Gea"/>
@@ -57,11 +69,36 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rv3-rt-8ye">
+                                <rect key="frame" x="162" y="364" width="50" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="8Fj-HH-RwT"/>
+                                    <constraint firstAttribute="width" constant="50" id="yKe-8n-gPB"/>
+                                </constraints>
+                                <state key="normal" title="test"/>
+                                <connections>
+                                    <action selector="testAction:" destination="Y6q-dh-w7m" eventType="touchUpInside" id="iic-7x-EUZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PJO-hj-aTk">
+                                <rect key="frame" x="161.5" y="273" width="53" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="4k5-y8-3VD"/>
+                                </constraints>
+                                <state key="normal" title="present"/>
+                                <connections>
+                                    <action selector="presentAction:" destination="Y6q-dh-w7m" eventType="touchUpInside" id="nLI-wY-xsK"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="0.98136967419999999" green="0.94150352479999999" blue="0.91605919599999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VcY-Ba-HRR" firstAttribute="centerY" secondItem="ObG-qk-AhU" secondAttribute="centerY" id="Egy-Nw-dIg"/>
                             <constraint firstItem="VcY-Ba-HRR" firstAttribute="centerX" secondItem="ObG-qk-AhU" secondAttribute="centerX" id="GbR-lc-I9T"/>
+                            <constraint firstItem="VcY-Ba-HRR" firstAttribute="top" secondItem="PJO-hj-aTk" secondAttribute="bottom" constant="20" id="WZi-BN-HeV"/>
+                            <constraint firstItem="PJO-hj-aTk" firstAttribute="centerX" secondItem="ObG-qk-AhU" secondAttribute="centerX" id="cwt-9a-jbp"/>
+                            <constraint firstItem="rv3-rt-8ye" firstAttribute="top" secondItem="VcY-Ba-HRR" secondAttribute="bottom" constant="20" id="wkO-2j-v1I"/>
+                            <constraint firstItem="rv3-rt-8ye" firstAttribute="centerX" secondItem="ObG-qk-AhU" secondAttribute="centerX" id="xhB-DM-p2g"/>
                         </constraints>
                     </view>
                 </viewController>
