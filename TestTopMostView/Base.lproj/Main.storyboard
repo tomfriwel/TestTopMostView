@@ -42,7 +42,7 @@
         <!--View Controller-->
         <scene sceneID="uWh-hA-ST3">
             <objects>
-                <viewController id="Y6q-dh-w7m" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MyAlertViewController" id="Y6q-dh-w7m" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ZX7-AZ-bUe"/>
                         <viewControllerLayoutGuide type="bottom" id="OOu-Pp-Gea"/>
@@ -58,7 +58,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.98136967419999999" green="0.94150352479999999" blue="0.91605919599999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="VcY-Ba-HRR" firstAttribute="centerY" secondItem="ObG-qk-AhU" secondAttribute="centerY" id="Egy-Nw-dIg"/>
                             <constraint firstItem="VcY-Ba-HRR" firstAttribute="centerX" secondItem="ObG-qk-AhU" secondAttribute="centerX" id="GbR-lc-I9T"/>
